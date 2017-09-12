@@ -4,7 +4,11 @@
   "description": "Uncledick and tom gettogether",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "keywords": [
     "lol",
@@ -19,5 +23,52 @@
     "ci"
   ],
   "author": "Uncle Tom",
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Dmitry Dodzin",
+      "email": "d.dodzin@gmail.com"
+    },
+    {
+      "name": "Tom Landes",
+      "email": "tom.landes9@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Dmitry Dodzin",
+      "email": "d.dodzin@gmail.com"
+    },
+    {
+      "name": "Tom Landes",
+      "email": "tom.landes9@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.0",
+    "compression": "^1.7.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.4",
+    "fs-jetpack": "^1.2.0",
+    "helmet": "^3.8.1",
+    "http-status": "^1.0.1",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0",
+    "superagent": "^3.6.0",
+    "supertest": "^3.0.0",
+    "url": "^0.11.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.3",
+    "mocha-lcov-reporter": "^1.3.0",
+    "sinon": "^3.2.1"
+  }
 }
