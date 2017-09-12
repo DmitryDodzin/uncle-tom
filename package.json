@@ -1,0 +1,23 @@
+{
+  "name": "uncle-tom",
+  "version": "1.0.0",
+  "description": "Uncledick and tom gettogether",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "lol",
+    "tom",
+    "uncle",
+    "dick",
+    "seed",
+    "test",
+    "tdd",
+    "pdd",
+    "potato",
+    "ci"
+  ],
+  "author": "Uncle Tom",
+  "license": "MIT"
+}
